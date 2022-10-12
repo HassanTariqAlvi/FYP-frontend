@@ -1,0 +1,142 @@
+const URLS = {
+    daily_work: {
+        home: "/daily_work",
+        add: "/daily_work/add",
+        details: "/daily_work/details",
+        report: "/daily_work/report",
+        edit: "/daily_work/edit",
+        add_daily_work: "daily_work/id/add_daily_work",
+        api_address: "daily_work/",
+        generate_report: "daily_work/generate_report/",
+    },
+    salary: {
+        home: "/hrm/salary",
+        add: "/hrm/salary/add",
+        edit: "/hrm/salary/edit",
+        details: "/hrm/salary/details",
+        report: "/hrm/salary/report",
+        generate_salary_form: "/hrm/salary/generate_salary",
+        api_address: "hrm/salary/",
+        generate_report: "hrm/salary/generate_report/",
+        generate_salary: "/hrm/salary/generate_salary",
+        get_salary_details: "hrm/salary/get_salary_details/",
+        api_address_generate_salary: "hrm/salary/generate_salary/",
+    },
+    loan: {
+        home: "/hrm/loan",
+        add: "/hrm/loan/add",
+        edit: "/hrm/loan/edit",
+        api_address: "hrm/loan/",
+        filter: "/hrm/loan/filter",
+        details: "/hrm/loan/details",
+        add_loan: "hrm/loan/id/add_loan",
+    },
+    departments: {
+        home: "/hrm/departments",
+        add: "/hrm/departments/add",
+        edit: "/hrm/departments/edit",
+        api_address: "hrm/departments/",
+    },
+    units: {
+        home: "/units/unit_details",
+        add: "/units/unit_details/add",
+        edit: "/units/unit_details/edit",
+        api_address: "units/unit_details/"
+    },
+    attendance: {
+        home: "/hrm/employee/attendance",
+        add: "/hrm/employee/attendance/add",
+        details: "/hrm/employee/attendance/details",
+        report: "/hrm/employee/attendance/report",
+        add_manual_attendance: "/hrm/employee/attendance/add_manual_attendance",
+        add_overtime_form: "/hrm/employee/attendance/add_overtime",
+        edit: "/hrm/employee/attendance/edit",
+        api_address: "hrm/employee/attendance/",
+        generate_report: "hrm/employee/attendance/generate_report/",
+        manual_attendance: "hrm/employee/attendance/id/manual_attendance/",
+        get_attendance_details: "hrm/employee/attendance/id/get_attendance_details/"
+    },
+    overtime: {
+        home: "/hrm/employee/overtime",
+        add: "/hrm/employee/overtime/add",
+        edit: "/hrm/employee/overtime/edit",
+        api_address: "hrm/employee/overtime/",
+        get_attendance_details: "hrm/employee/overtime/id/get_employee_details/"
+    },
+    loan_detail: {
+        home: "/hrm/loan_detail",
+        add: "/hrm/loan_detail/add",
+        edit: "/hrm/loan_detail/edit",
+        report: "/hrm/loan/report",
+        api_address: "hrm/loan_detail/",
+        generate_report: "hrm/loan_detail/generate_report/",
+        reject_loan: 'hrm/loan_detail/id/reject_loan/',
+        approve_loan: 'hrm/loan_detail/id/approve_loan/',
+    },
+    employee_details: {
+        home: "/hrm/employee/details",
+        add: "/hrm/employee/details/add",
+        edit: "/hrm/employee/details/edit",
+        api_address: "hrm/employee/details/"
+    },
+    units_price: {
+        home: "/units/unit_prices",
+        add: "/units/unit_prices/add",
+        edit: "/units/unit_prices/edit",
+        api_address: "units/unit_prices/"
+    },
+    loan_recovery: {
+        home: "/hrm/loan_recovery",
+        add: "/hrm/loan_recovery/add",
+        edit: "/hrm/loan_recovery/edit",
+        api_address: "hrm/loan_recovery/",
+        report: "/hrm/loan_recovery/report",
+        generate_report: "hrm/loan_recovery/generate_report/",
+        add_loan_recovery: 'hrm/loan_recovery/id/add_loan_recovery',
+    },
+    employee_types: {
+        home: "/hrm/employee/employee_type",
+        add: "/hrm/employee/employee_type/add",
+        edit: "/hrm/employee/employee_type/edit",
+        api_address: "hrm/employee/employee_type/",
+    },
+    measure_criteria: {
+        home: "/units/measure_criteria",
+        add: "/units/measure_criteria/add",
+        edit: "/units/measure_criteria/edit",
+        api_address: "units/measure_criteria/",
+    },
+    roles: {
+        home: "/hrm/employee/roles",
+        add: "/hrm/employee/roles/add",
+        edit: "/hrm/employee/roles/edit",
+        api_address: "hrm/employee/roles/",
+    },
+    groups: {
+        home: "/system_users/groups",
+        add: "/system_users/groups/add",
+        edit: "/system_users/groups/edit",
+        api_address: "system_users/groups/",
+        edit_group: "system_users/groups/id/edit_group",
+    },
+    permissions: 'permissions',
+    user: {
+        home: "/system_users",
+        add: "/system_users/add",
+        edit: "/system_users/edit",
+        api_address: 'users/',
+        add_user: 'users/id/add_user/',
+        edit_user: 'users/id/edit_user/',
+    },
+    account: {
+        login: 'user/login/',
+        logout: 'user/logout/',
+    },
+    refreshToken: 'token/refresh/',
+    reports: 'reports/',
+    stats: 'stats',
+    log_files: 'log_files',
+    units_home: 'units/'
+}
+
+export default URLS;
